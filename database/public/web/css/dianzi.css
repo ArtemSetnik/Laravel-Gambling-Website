@@ -1,0 +1,407 @@
+.slot-wp button{border:0}
+
+.slot-wp .bs1 {
+    border: 1px solid #ac832a;
+}
+.slot-wp {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 0px;
+	color: #e5b600;
+
+}
+.slot-wp .tab-menu-slot {
+    height: 85px;
+    margin: 0 0 30px;
+    position: relative;
+    z-index: 11;
+    background: rgba(52, 39, 21, .7);
+}
+.slot-wp .tab-menu-slot li {
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.slot-wp .tab-menu-slot a:hover, .tab-menu-slot li.active a {
+	background: url(../images/slot-in.png) #ac832a no-repeat 50% 90%
+}
+.slot-wp .tab-menu-slot li:not(:last-child):after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #6d572b;
+}
+.slot-wp .tab-menu-slot a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+}
+.slot-wp .tab-menu-slot span {
+    display: inline-block;
+    padding-top: 48px;
+}
+.slot-wp .search-info {
+    overflow: hidden;
+}
+.slot-wp .search-info .search-hd {
+    height: 64px;
+    border-bottom: 1px solid #ac832a;
+    position: relative;
+    background: rgba(52, 39, 21, .7);
+}
+.slot-wp .tab-menu-slot .pt-ico {
+    width: 83px;
+    height: 83px;
+    background-position: 0 0;
+}
+.slot-wp .tab-menu-slot .ptsw-ico {
+    width: 88px;
+    height: 83px;
+    background-position: -795px 0;
+}
+.slot-wp .tab-menu-slot .dt-ico {
+    width: 81px;
+    height: 82px;
+    background-position: -88px 0;
+}
+.slot-wp .tab-menu-slot .mg-ico {
+    width: 111px;
+    height: 70px;
+    background-position: -169px 0;
+    top: -24px;
+    left: 1%;
+}
+.slot-wp .tab-menu-slot .qt-ico {
+    width: 108px;
+    height: 81px;
+    left: 4%;
+    background-position: -284px 0;
+}
+.slot-wp .tab-menu-slot .nt-ico {
+    width: 105px;
+    height: 75px;
+    background-position: -396px 0;
+    top: -33px;
+    left: 5%;
+}
+.slot-wp .tab-menu-slot .ttg-ico {
+    left: 15%;
+    top: -36px;
+    width: 85px;
+    height: 83px;
+    background-position: -505px 0;
+}
+.slot-wp .tab-menu-slot .png-ico {
+    width: 76px;
+    height: 78px;
+    background-position: -593px 0;
+}
+.slot-wp .tab-menu-slot .bbin-ico {
+    width: 76px;
+    height: 78px;
+    background-position: -1084px 0;
+}
+.slot-wp .tab-menu-slot .gg-ico {
+    width: 76px;
+    height: 78px;
+    background-position: -1156px 0;
+}
+.slot-wp .tab-menu-slot .ag-ico {
+    width: 105px;
+    height: 75px;
+    background-position: -674px 0;
+    top: -31px;
+    left: 4%;
+}
+.slot-wp .tab-menu-slot .mw-ico {
+    width: 105px;
+    height: 75px;
+    background-position: -879px 0;
+    top: -33px;
+    left: 8%;
+}
+.slot-wp .tab-menu-slot .png-ico {
+    width: 105px;
+    height: 75px;
+    background-position: -880px 0;
+    top: -33px;
+    left: 8%;
+}
+.slot-wp .tab-menu-slot .cq-ico {
+    width: 111px;
+    height: 70px;
+    background-position: -978px -14px;
+    top: -24px;
+    left: 1%;
+}
+
+.slot-wp .search-info .search-hd i, .tab-menu-slot .ico, .tab-menu-slot i {
+    display: block;
+    background: url(../images/sloat-ico.png) no-repeat;
+    position: absolute;
+    top: -34px;
+    left: 18%;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -ms-transform: scale(.8);
+}
+.slot-wp .search-info .search-hd i {
+    width: 26px;
+    height: 26px;
+    background-position: -126px -93px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.slot-wp .search-info .search-hd span {
+    float: left;
+    margin-left: 65px;
+    display: inline-block;
+    font: 700 18px/64px "Microsoft Yahei";
+}
+.slot-wp .search-info .ipt-group {
+    width: 292px;
+    margin-left: 15px;
+    float: left;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #6d572b;
+    background: #4f402a;
+}
+.slot-wp .mt15 {
+    margin-top: 15px;
+}
+.slot-wp .search-info .btn-search, .search-info .btn-select {
+    width: 90px;
+    height: 34px;
+    margin-left: 15px;
+    line-height: 34px;
+    background-color: #ac832a;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px;
+    transition: all .3s;
+}
+.slot-wp .search-info .search-hd .ipt {
+    width: 280px;
+    height: 34px;
+    margin-left: 5px;
+    line-height: 34px;
+    padding: 0 5px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+.slot-wp .search-info .btn-select {
+    padding: 0 10px;
+    background-color: #bf9b53;
+    text-align: center;
+    display: block;
+    background-color: #bf9b53;
+    position: absolute;
+    left: 560px;
+    top: 15px;
+}
+.slot-wp .myFavorite {
+    float: right;
+    margin: 15px 20px 0 0;
+}
+.slot-wp .search-info .myFavorite button {
+    padding: 0 20px;
+    width: auto;
+}
+.slot-wp .myFavorite em {
+    font-size: 20px;
+}
+.slot-wp .search-filter {
+    margin: 20px 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #bf9b53;
+    position: relative;
+}
+.slot-wp .search-filter dl {
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+}
+.slot-wp .search-filter dl dt {
+    margin-right: 25px;
+    font-weight: 700;
+}
+.slot-wp .search-filter dl dd, .search-filter dl dt {
+    display: inline-block;
+}
+.slot-wp .search-filter .search-row .active, .search-filter dl dd a:hover {
+    display: inline-block;
+    background-color: #d4a903;
+    border-radius: 6px;
+    height: 28px;
+    line-height: 28px;
+    color: #180a06;
+}
+.slot-wp .search-filter dl dd a {
+    color: #fff;
+    padding: 0 10px;
+}
+.slot-wp .jackpot-box {
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+
+
+.slot-wp .jackpot-box h3 {
+    font-size: 34px;
+    color: #e5b600;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+
+.slot-wp .game-list-wrrapper {
+    position: relative;
+}
+.slot-wp .game-list {
+    margin: 0 22px;
+}
+.slot-wp .clearfix {
+    zoom: 1;
+}
+.slot-wp .game-list .game-info {
+    width: 258px;
+    height: 265px;
+    margin: 0 15px 30px;
+    float: left;
+    transition: all 0.4s linear;
+}
+.slot-wp .game-list .pic {
+    width: 250px;
+    height: 160px;
+    display: block;
+
+    text-align: center;
+    position: relative;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    overflow: hidden;
+}
+.slot-wp .game-list .pic img {
+    width: 250px;
+    height: 160px;
+}
+.slot-wp .game-info .mask {
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 160px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.slot-wp .game-info .mask a {
+    color: #fff;
+    font-size: 16px;
+}
+.slot-wp .game-info .mask i {
+    color: #fff;
+    padding-right: 6px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.slot-wp .game-list .name {
+    height: 37px;
+    overflow: hidden;
+    font: 400 21px/37px "Microsoft Yahei";
+    position: relative;
+    color: #ffd504;
+    text-align: center;
+}
+.slot-wp .game-list .ame-brief {
+    height: 23px;
+    line-height: 21px;
+    border-bottom: 1px dotted #bf9b53;
+    text-align: center;
+}
+.slot-wp .game-list .comment {
+    font-size: 21px;
+    color: #d2020f;
+    font-weight: 700;
+}
+.slot-wp .fl {
+    float: left;
+}
+.slot-wp .game-list .comment .b1, .game-list .popular {
+    color: #606060;
+}
+.slot-wp .fr {
+    float: right;
+}
+.slot-wp .game-list .comment .b1, .game-list .popular {
+    color: #606060;
+}
+.slot-wp .game-list .popular b {
+    color: #c9070f;
+}
+.slot-wp .tc {
+    text-align: center;
+}
+.slot-wp .game-list .btn-wp a {
+    width: 108px;
+    height: 32px;
+    margin: 12px 0 0 10px;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    font: 400 16px/32px "Microsoft Yahei";
+    color: #fff;
+    transition: all 0.4s linear;
+}
+.slot-wp .btn-demo {
+    background-color: #ac832a;
+}
+.slot-wp .btn-play {
+    background-color: #fd4747;
+}
+
+.slot-wp .jackpot-box .num-item {
+	display: inline-block;
+	float: left;
+	height: 68px;
+	width: 40px;
+	line-height: 68px;
+	background: #ac832b;
+	background-size: cover;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 4px
+}
+.slot-wp .tab-menu-slot .hot{
+    background-position: -93px -93px;
+}
+.slot-wp .tab-menu-slot .new {
+    background-position: 0 -93px;
+}
+.slot-wp .tab-menu-slot .hot, .tab-menu-slot .new {
+    width: 33px;
+    height: 31px;
+    position: absolute;
+    left: -4px;
+    top: 55px;
+}
+
+

@@ -1,0 +1,10 @@
+.refresh {
+    display: inline-block;
+    background: url(../images/bg-ico.png) no-repeat center center;
+    background-position: -80px -102px;
+    width: 18px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 3px;
+    vertical-align: inherit;
+}

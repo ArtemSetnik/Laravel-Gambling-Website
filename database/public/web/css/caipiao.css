@@ -1,0 +1,49 @@
+#lobby{
+    width: 1000px;
+    margin: 0 auto;
+    background: #171717;	
+}
+#lobby ul.game-list {
+    font-size: 0;
+    text-align: center;
+}
+#lobby ul.game-list li:hover{top:-5px}
+#lobby ul.game-list li {
+    position: relative;
+    top: 0;
+    width: 421px;
+    height: 312px;
+    margin: 15px;
+	display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center top;
+	cursor:pointer;
+}
+#lobby ul.game-list li[game-box="yccp"] {
+    background-image: url(../images/lottory/yccp.png);
+}
+#lobby ul.game-list li[game-box="ycgc"] {
+    background-image: url(../images/lottory/ycgc.png);
+}
+#lobby ul.game-list li[game-box="egcp"] {
+    background-image: url(../images/lottory/egcp.png);
+}
+#lobby ul.game-list li[game-box="bbin"] {
+    background-image: url(../images/lottory/bbin.png);
+}
+#banner {
+	width:100%;
+    position: relative;
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+#banner {
+    background-image: url(../images/lottory/lottoryBanner.jpg);
+	background-size: cover;
+}
+.lottery{
+	margin:0 auto;
+}

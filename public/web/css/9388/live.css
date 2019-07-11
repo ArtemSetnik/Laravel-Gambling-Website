@@ -1,0 +1,287 @@
+@charset "utf-8";
+/*常用css*/
+.fl {
+  float: left;
+  _display: inline;
+}
+.fr {
+  float: right;
+  _display: inline;
+}
+/*常用字体*/
+.yh {
+  font-family: 'Microsoft YaHei';
+}
+.st {
+  font-family: 'SimSun';
+}
+.ar {
+  font-family: 'Arial';
+}
+.roman {
+  font-family: "Times New Roman";
+}
+.tn {
+  display: block;
+  font-size: 0;
+  text-indent: -99999em;
+  color: transparent;
+}
+.tt a:hover {
+  text-decoration: underline;
+}
+.xie {
+  font-style: italic;
+}
+.ddd {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+a {
+  color: #666;
+}
+a:hover {
+  text-decoration: none;
+  color: #FFCE4B;
+}
+.btn {
+  cursor: pointer;
+}
+body {
+  font-size: 12px;
+  color: #666;
+  line-height: 24px;
+  min-width: 1020px;
+  font-family: 'Microsoft YaHei';
+}
+.nav li{
+  line-height: 1;
+}
+/* .l {
+  color: #FFCE4B !important;
+} */
+.red {
+  color: #FF0303!important;
+}
+.w {
+  width: 1020px;
+  min-width: 1020px;
+  margin: 0 auto;
+}
+.h10 {
+  height: 10px;
+  line-height: 10px;
+  clear: both;
+}
+
+/*banner*/
+.banner {
+  height: 632px;
+  position: relative;
+  width: 100%!important;
+  background: #000;
+}
+.banner .bd,
+.banner ul,
+.banner li {
+  position: absolute;
+  width: 100%!important;
+  height: 100%;
+}
+.banner li a {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*notice*/
+.notice-row {
+  height: 0;
+  line-height: 0;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.noticeBox {
+  position: absolute;
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+.noticeBox .title {
+  width: 96px;
+  float: left;
+  color: #FFCE4B;
+  text-indent: 25px;
+  background: url(../../images/icon-notice.png) 0 center no-repeat;
+}
+.noticeBox .bd2 {
+    width: 910px;
+    float: right;
+    height: 33px;
+    line-height: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1px;
+}
+.noticeBox .bd2 li {
+  font-size: 14px;
+  color: #fff;
+  height: 49px;
+}
+.noticeBox .bd2 a {
+  color: #fff;
+}
+.noticeBox .bd2 a:hover {
+  text-decoration: underline;
+}
+
+
+/*真人*/
+.zhenrenPage {
+  background:  #1B1B1B;
+}
+.zhenren {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.zhenren li {
+  border: 4px solid #363636;
+  width: 326px;
+  height: 230px;
+  margin: 70px 8px 0 0px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  background: #323232;
+}
+.zhenren li:hover {
+  border: 4px solid #FBCB49;
+}
+.nn1 {
+  width: 316px;
+  height: 180px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  border: 2px solid #0c0c0c;
+}
+.au_m {
+  width: 100%;
+  float: left;
+  background: #1a1a19 url(../img/bg2.jpg) no-repeat center;
+  padding-bottom: 30px;
+}
+.au_m1 {
+  width: 100%;
+  float: left;
+}
+.xx1 {
+  position: absolute;
+  left: 15px;
+  top: 21px;
+  z-index: 9;
+}
+.xx2 {
+  position: absolute;
+  left: 15px;
+  top: 63px;
+  font-size: 14px;
+  color: #dadada;
+  z-index: 9;
+  line-height: 20px;
+}
+.xx3 {
+  position: absolute;
+  left: 15px;
+  top: 155px;
+  font-size: 14px;
+  color: #fffd8a;
+  z-index: 9;
+}
+.xx4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  width: 326px;
+  height: 48px;
+}
+.xx4 span {
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  line-height: 48px;
+  margin-left: 18px;
+}
+.xx4 a {
+  width: 120px;
+  height: 32px;
+  float: right;
+  margin: 9px 19px 0 0;
+  background: #ffce4b;
+  font-size: 16px;
+  color: #272727;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.xx5 {
+  position: absolute;
+  right: 0px;
+  bottom: 48px;
+}
+.xx5 img {
+  display: block;
+}
+.zhenren ul {
+  width: 1050px;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 110px;
+}
+.zhenren li:hover {
+  background: #323232;
+}
+.zhenren li:hover .nn1 {
+  border: 2px solid #ffce4b;
+}
+.zhenren li:hover .xx4 {
+  background: #ffce4b;
+}
+.zhenren li:hover .xx4 span {
+  color: #171717;
+}
+.zhenren li:hover .xx2 {
+  color: #ebea81;
+}
+.zhenren li:hover .xx {
+  color: #fff;
+}
+.zhenren li:hover .xx4 a {
+  background: #AD0F0F;
+  color: #fff;
+}
+.zhenren .more,
+.zhenren .more:hover {
+  background: url(../../images/zhenren/morePoker.jpg) no-repeat center;
+  width: 326px;
+  height: 174px;
+}
+.ttt {
+  float: left;
+  color: #fffd8a;
+}
+.xx3 i {
+  float: left;
+}
+/*优惠活动*/

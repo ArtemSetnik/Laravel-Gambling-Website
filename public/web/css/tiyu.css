@@ -1,0 +1,57 @@
+#banner {
+    height: 159px;
+    background-image: url(../images/sport/banner.png);
+}
+#content {
+    position: relative;
+    width: 1002px;
+    margin: 0 auto;
+    padding: 2px 0 5px;
+    text-align: center;
+}
+#lobby {
+    padding: 10px 0;
+    background-color: #372d2d;
+}
+#lobby ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.game-list {
+    text-align: center;
+}
+.game-list>li {
+    float: left;
+    width: 308px;
+    height: 261px;
+    margin: 5px 7px;
+    vertical-align: top;
+    background-position: center top;
+}
+
+.game-list>li:hover {
+    background-position-y: bottom;
+}
+ul.game-list>li.hg {
+    background-image: url(../images/sport/crown.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.bb {
+    background-image: url(../images/sport/bb.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.saba {
+    background-image: url(../images/sport/saba.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.more {
+    background-image: url(../images/sport/more.jpg);
+}
+ul.game-list>li.im {
+    background-image: url(../images/sport/im.jpg);
+}
+ul.game-list>li.opus {
+    background-image: url(../images/sport/opus.jpg);
+}

@@ -1,0 +1,217 @@
+#banner {
+    width:100%;
+    position: relative;
+    height: 355px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+#banner {
+    background-image: url(../images/lottory/lottoryBanner.jpg);
+    background-size: cover;
+}
+#content {
+    position: relative;
+    padding: 10px 0;
+    background: #17171b;
+}
+
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#lobby {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+}
+
+#lobby > ul.game-list {
+    font-size: 0;
+    text-align: center;
+}
+
+ol, ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#lobby > ul.game-list > li {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#lobby:before {
+    content: '';
+    display: none;
+    height: 110px;
+    background: url('../images/lottery/top_list.png') no-repeat center;
+}
+
+ul.game-list > li {
+    position: relative;
+    width: 320px;
+    margin: 10px 6px;
+    overflow: hidden;
+    background-color: #241607;
+}
+
+ul.game-list > li:hover {
+    background-color: #532b00;
+}
+
+ul.game-list > li:before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 317px;
+    height: 437px;
+    border: 2px solid #fcd846;
+}
+
+ul.game-list > li:hover:before {
+    display: block;
+}
+
+ul.game-list > li .pic {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    height: 281px;
+}
+
+ul.game-list > li .pic:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+ul.game-list > li:hover .pic:before {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+ul.game-list > li[game-box="ng"] .pic:before {
+    background-image: url('../images/lottery/ng.jpg');
+}
+ul.game-list > li[game-box="ng2"] .pic:before {
+    background-image: url('../images/lottery/ng2.jpg');
+}
+ul.game-list > li[game-box="vr"] .pic:before {
+    background-image: url('../images/lottery/vr.jpg');
+}
+
+ul.game-list > li[game-box="vr"] .pic:before {
+    background-image: url('../images/lottery/vr.jpg');
+}
+
+ul.game-list > li[game-box="ig"] .pic:before {
+    background-image: url('../images/lottery/ig.jpg');
+}
+
+ul.game-list > li[game-box="ig6"] .pic:before {
+    background-image: url('../images/lottery/ig6.jpg');
+}
+
+ul.game-list > li[game-box="bg"] .pic:before {
+    background-image: url('../images/lottery/bg.jpg');
+}
+
+ul.game-list > li[game-box="bb"] .pic:before {
+    background-image: url('../images/lottery/bb.jpg');
+}
+
+ul.game-list > li[game-box="eg"] .pic:before {
+    background-image: url('../images/lottery/eg.jpg');
+}
+
+ul.game-list > li[game-box="more"] .pic:before {
+    background-image: url('../images/lottery/more.jpg');
+}
+
+ul.game-list > li[game-box="esb"] {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url('../images/sport/role_esb.png');
+}
+ul.game-list > li[game-box="hc"] {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url('../images/sport/role_hc.png');
+}
+
+/*
+ul.game-list > li[game-box="esb"]:before {
+    background-image: url('../images/sport/role_esb.png');
+}
+
+ul.game-list > li[game-box="esb"] p:before {
+    background-image: url('../images/sport/role_esb.png');
+}*/
+
+ul.game-list > li .info {
+    width: 100%;
+    height: 160px;
+    padding: 11px 20px;
+    color: #fff;
+    font-size: 12px;
+    background: #111;
+}
+
+ul.game-list > li:hover .info {
+    background: #313131;
+}
+
+ul.game-list > li[game-box="more"]:hover .info {
+    background: #111;
+    border-color: transparent;
+}
+
+ul.game-list > li .info span.title {
+    display: block;
+    margin-bottom: 17px;
+    color: #fff;
+    font-size: 22px;
+    background: url('/images/title.png') no-repeat center;
+}
+
+ul.game-list > li .info:after {
+    content: 'Start';
+    display: block;
+    width: 98px;
+    height: 28px;
+    margin: 17px auto 0;
+    color: #999;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+ul.game-list > li:hover .info:after {
+    color: #fcd846;
+    border-color: #fcd846;
+}
+
+ul.game-list > li[game-box="more"] .info:after {
+    content: none;
+}

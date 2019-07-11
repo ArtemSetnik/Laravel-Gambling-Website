@@ -1,0 +1,150 @@
+#banner {
+    display: none
+}
+
+#news {
+    display: none
+}
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+#content_nosign{
+    padding-top: 200px;
+    background: url('../images/poker/poker_bg.png') no-repeat center top;
+
+}
+.container{
+    width: 65vw;
+}
+#content {
+    padding-top: 5vh;
+}
+#background{
+    background-color: #171717;
+}
+.gamerow{
+    padding: 25px;
+    display: inline-flex;
+}
+.input_set{
+    padding: 10px 60px;
+}
+.input_custom{
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+}
+.input_balance{
+    width: 12vw;
+    background: white;
+    border-radius: 5px;
+    display: inline-flex;
+}
+.balance{
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 10vw;
+}
+
+.place_img{
+    position: absolute;
+    margin: 8px;
+}
+.input_element{
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 23vw;
+    
+}
+
+#lobby iframe {
+    width: 100%;
+    height: 800px;
+    background: #fff;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s
+}
+
+#lobby {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+    position: relative
+}
+.ng-hide {
+    display: none !important;
+}
+#lobby:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 195px;
+    color: #e7d692;
+    font: bold 20px/80px 'Microsoft YaHei'
+}
+
+#lobby ul.game-list {
+    display: -webkit-box;
+    background-color: #212025
+}
+
+#lobby ul.game-list>li {
+    position: relative;
+    width: 103px;
+    height: 80px;
+    padding-top: 45px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#lobby ul.game-list>li.active,#lobby ul.game-list>li:hover {
+    color: #ffd710;
+    background-color: #343436
+}
+
+#lobby ul.game-list>li.active:before,#lobby ul.game-list>li:hover:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100px;
+    height: 4px;
+    background: url('../images/poker/tab_bg.png') no-repeat center bottom
+}
+
+ul.game-list>li[game-box="ky"] {
+
+    background-image: url('../images/poker/ky.png')
+}
+
+ul.game-list>li[game-box="vg"] {
+    background-image: url('../images/poker/vg.png')
+}
+
+ul.game-list>li[game-box="fg"] {
+    background-image: url('../images/poker/fg.png')
+}
+
+ul.game-list>li[game-box="mt"] {
+    margin-left: 296px;
+    background-image: url('../images/poker/mt.png')
+}
+ul.game-list>li[game-box="leg"] {
+    background-image: url('../images/poker/leg.png')
+}
+ul.game-list>li[game-box="city761"] {
+    background-image: url('../images/poker/city761.png')
+}
+

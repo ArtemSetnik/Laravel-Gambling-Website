@@ -1,0 +1,137 @@
+/*notice*/
+.notice-row {
+    height: 0;
+    line-height: 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.noticeBox {
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+.noticeBox .title {
+    width: 96px;
+    float: left;
+    color: #FFCE4B;
+    text-indent: 25px;
+    background: url(../images/icon-notice.png) 0 center no-repeat;
+}
+.noticeBox .bd2 {
+    width: 910px;
+    float: right;
+    height: 33px;
+    line-height: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1px;
+}
+.noticeBox .bd2 li {
+    font-size: 14px;
+    color: #fff;
+    height: 49px;
+}
+.noticeBox .bd2 a {
+    color: #fff;
+}
+.noticeBox .bd2 a:hover {
+    text-decoration: underline;
+}
+.w {
+    width: 1020px;
+    min-width: 1020px;
+    margin: 0 auto;
+}
+
+/*彩票游戏*/
+.lotteryPage {
+    background: url(../images/lottoryBg.jpg) center bottom no-repeat #1B1B1B;
+    /*min-height: 500px;*/
+    overflow: hidden;
+}
+.lottery {
+    width: 993px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.lottery ul {
+    width: 1020px;
+}
+.lottery ul li {
+    width: 400px;
+    height: 200px;
+    border: 3px solid #434242;
+    overflow: hidden;
+    /*margin-bottom: 20px;*/
+    /*margin-right: 100px;*/
+    margin: 0 50px 20px;
+    float: left;
+    transition: all 0.3s;
+    position: relative;
+}
+.lottery ul li img {
+    float: left;
+    margin-left: 16px;
+    margin-top: 18px;
+    display: block;
+    background: #1e1d1d;
+
+}
+.lottery ul li a {
+    display: block;
+    height: 148px;
+}
+.lottery ul li .liright {
+    float: right;
+    width: 146px;
+    padding-top: 35px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 7px;
+}
+.lottery ul li .liright h2 {
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    transition: all 0.3s;
+    height: 26px;
+}
+.lottery ul li .liright span {
+    font-family: Arial;
+    font-size: 12px;
+    color: #898989;
+    transition: all 0.3s;
+    line-height: 30px;
+}
+.lottery ul li .rulebtn {
+    width: 114px;
+    height: 24px;
+    display: block;
+
+    line-height: 24px;
+    color: #898989;
+
+    position: absolute;
+    right: 24px;
+    bottom: 32px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #373737;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+.lottery ul li:hover {
+    border: 3px solid #ecdf88;
+}
+.lottery ul li:hover .rulebtn {
+    background: #FFCE4B;
+    color: #000000;
+}

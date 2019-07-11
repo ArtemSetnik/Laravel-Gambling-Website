@@ -1,0 +1,92 @@
+#banner {
+    height: 159px;
+    background-image: url(../images/zhenren/banner.png);
+}
+#content {
+    position: relative;
+    width: 1002px;
+    margin: 0 auto;
+    padding: 2px 0 5px;
+    text-align: center;
+}
+#lobby {
+    padding: 10px 0;
+    background-color: #372d2d;
+}
+#lobby ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.game-list {
+    text-align: center;
+}
+.game-list>li {
+    float: left;
+    width: 307px;
+    height: 231px;
+    vertical-align: top;
+    background-position: center top;
+}
+.game-list>li {
+    margin: 10px;
+}
+.game-list>li:hover {
+    background-position-y: bottom;
+}
+ul.game-list>li.bb {
+    background-image: url(../images/zhenren/bb.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.ag {
+    background-image: url(../images/zhenren/ag.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.mg {
+    background-image: url(../images/zhenren/mg.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.pt {
+    background-image: url(../images/zhenren/pt.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.ab {
+    background-image: url(../images/zhenren/ab.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.bg {
+    background-image: url(../images/zhenren/bg.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.dg {
+    background-image: url(../images/zhenren/dg.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.sb {
+    background-image: url(../images/zhenren/sb.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.more {
+    background-image: url(../images/zhenren/more.jpg);
+}
+ul.game-list>li.og {
+    background-image: url(../images/zhenren/og.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.cg {
+    background-image: url(../images/zhenren/cg.jpg);
+	cursor:pointer;
+}
+ul.game-list>li.sa {
+    background-image: url(../images/zhenren/sa.jpg);
+}
+ul.game-list>li.gd {
+    background-image: url(../images/zhenren/gd.jpg);
+}
+ul.game-list>li.ebet {
+    background-image: url(../images/zhenren/ebet.jpg);
+}
+ul.game-list>li.opus {
+    background-image: url(../images/zhenren/opus.jpg);
+}

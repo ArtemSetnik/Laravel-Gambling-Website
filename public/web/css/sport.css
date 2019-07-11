@@ -1,0 +1,242 @@
+
+#banner {
+    height: 159px;
+    background-image: url(../images/sport/banner.png);
+}
+#content {
+    position: relative;
+    z-index: 0;
+    padding: 10px 0;
+    background: #17171b;
+}
+
+ol, ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#lobby {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+}
+
+#lobby > ul.game-list {
+    display: block;
+    text-align: left;
+}
+
+#lobby > ul.game-list > li {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#lobby > ul.game-list > li.no-margin {
+    margin-left: 0;
+}
+
+ul.game-list > li {
+    position: relative;
+    width: 320px;
+    height: 417px;
+    margin-bottom: 20px;
+    background-position: center 16px;
+}
+
+ul.game-list > li + li {
+    margin-left: 20px;
+}
+
+ul.game-list > li:before {
+    content: '';
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: 326px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+ul.game-list > li p {
+    position: relative;
+    z-index: 0;
+    height: 91px;
+    margin: 0;
+    padding: 23px 0 0 110px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    background-color: #17171b;
+}
+
+ul.game-list > li p span {
+    display: block;
+    color: #444;
+    font-size: 12px;
+}
+
+ul.game-list > li p:before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ul.game-list > li p:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url('../images/sport/sport_arrow.png') no-repeat center top;
+}
+
+ul.game-list > li:after {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 1;
+    display: none;
+    width: 320px;
+    height: 397px;
+    border: 2px solid #a1925c;
+}
+
+ul.game-list > li:hover p, ul.game-list > li:hover p span {
+    color: #eddb87;
+}
+
+ul.game-list > li:hover p:after {
+    background-position: center bottom;
+}
+
+ul.game-list > li:hover:after {
+    display: inline-block;
+}
+
+ul.game-list > li[game-box="ss"] {
+    background-image: url('../images/sport/bg_ss.jpg');
+}
+
+ul.game-list > li[game-box="ss"]:before {
+    background-image: url('../images/sport/role_ss.png');
+}
+
+ul.game-list > li[game-box="ss"] p:before {
+    background-image: url('../images/sport/icon_crown.png');
+}
+
+ul.game-list > li[game-box="saba"] {
+    background-image: url('../images/sport/bg_saba.jpg');
+}
+
+ul.game-list > li[game-box="saba"]:before {
+    background-image: url('../images/sport/role_saba.png');
+}
+
+ul.game-list > li[game-box="saba"] p:before {
+    background-image: url('../images/sport/icon_saba.png');
+}
+
+ul.game-list > li[game-box="bb"] {
+    background-image: url('../images/sport/bg_bb.jpg');
+}
+
+ul.game-list > li[game-box="bb"]:before {
+    background-image: url('../images/sport/role_bb.png');
+}
+
+ul.game-list > li[game-box="bb"] p:before {
+    background-image: url('../images/sport/icon_bb.png');
+}
+
+
+ul.game-list > li[game-box="gj"] {
+    background-image: url('../images/sport/bg_gj.jpg');
+}
+
+ul.game-list > li[game-box="gj"]:before {
+    background-image: url('../images/sport/role_gj.png');
+}
+
+ul.game-list > li[game-box="gj"] p:before {
+    background-image: url('../images/sport/icon_gj.png');
+}
+
+ul.game-list > li[game-box="esb"] {
+    background-image: url('../images/sport/bg_esb.jpg');
+}
+
+ul.game-list > li[game-box="esb"]:before {
+    background-image: url('../images/sport/role_esb.png');
+}
+
+ul.game-list > li[game-box="esb"] p:before {
+    background-image: url('../images/sport/icon_esb.png');
+}
+
+ul.game-list > li[game-box="ag"] {
+    background-image: url('../images/sport/bg_ag.jpg');
+}
+ul.game-list > li[game-box="ag"]:before {
+    background-image: url('../images/sport/role_ag.png');
+}
+ul.game-list > li[game-box="ag"] p:before {
+    background-image: url('../images/sport/icon_ag.png');
+}
+
+ul.game-list > li[game-box="newbb"] {
+    background-image: url('../images/sport/bg_newbb.jpg');
+}
+ul.game-list > li[game-box="newbb"] p:before {
+    background-image: url('../images/sport/icon_bb.png');
+}
+ul.game-list > li[game-box="newbb"]:before {
+    background-image: url('../images/sport/role_newbb.png');
+}
+
+ul.game-list > li[game-box="avia"] {
+    background-image: url('../images/sport/bg_avia.jpg');
+}
+ul.game-list > li[game-box="avia"] p:before {
+    background-image: url('../images/sport/icon_avia.png');
+}
+ul.game-list > li[game-box="avia"]:before {
+    background-image: url('../images/sport/role_avia.png');
+}
+
+ul.game-list > li[game-box="hc"] {
+    background-image: url('../images/sport/bg_hc.jpg');
+}
+ul.game-list > li[game-box="hc"] p:before {
+    background-image: url('../images/sport/icon_hc.png');
+}
+ul.game-list > li[game-box="hc"]:before {
+    background-image: url('../images/sport/role_hc.png');
+}
+ul.game-list > li[game-box="more"] {
+    background-image: url('../images/sport/sport_more.png');
+}
+
+ul.game-list > li[game-box="more"]:hover:after {
+    display: none;
+}

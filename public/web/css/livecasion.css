@@ -1,0 +1,149 @@
+#banner {
+    background: url('https://cdn.igsttech.com/Web.Portal/JM001-01.Portal/Content/Views/Lobby/Live/banner.1.jpg');
+    height: 180px;
+
+}
+#content {
+    position: relative;
+    z-index: 0;
+    padding: 10px 0;
+    width: 1002px;
+    margin: 0 auto;
+}
+#lobby {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0;
+}
+#lobby>ul.game-list {
+    display: block;
+    text-align: left;
+}
+#lobby>ul.game-list>li {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+}
+ul.game-list>li {
+    position: relative;
+    width: 242px;
+    height: 308px;
+    margin-bottom: 10px;
+    background-color: #18181b;
+
+}
+
+ul.game-list>li+li {
+    margin-left: 10px
+}
+#lobby>ul.game-list>li.no-margin {
+    margin-left: 0;
+}
+ul.game-list>li:before {
+    content: '';
+    display: none;
+    width: 242px;
+    height: 308px;
+    background: url('../images/hover.png') no-repeat
+}
+
+ul.game-list>li span {
+    position: absolute;
+    top: 276px;
+    left: 17px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold
+}
+
+ul.game-list>li:after {
+    content: '';
+    position: absolute;
+    top: 250px;
+    right: 15px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('../images/enter.png') no-repeat center top
+}
+
+ul.game-list>li:hover:before {
+    display: inline-block
+}
+
+ul.game-list>li:hover span {
+    color: #302012
+}
+
+ul.game-list>li:hover:after {
+    background-position: center bottom
+}
+
+ul.game-list>li[game-box="bb"] {
+    background-image: url('../images/zhenren/bb.png')
+}
+
+ul.game-list>li[game-box="ag"] {
+    background-image: url('../images/zhenren/ag.png')
+}
+
+ul.game-list>li[game-box="gpi"] {
+    background-image: url('../images/zhenren/gpi.png')
+}
+
+ul.game-list>li[game-box="evo"] {
+    background-image: url('../images/zhenren/evo.png')
+}
+
+ul.game-list>li[game-box="pt"] {
+    background-image: url('../images/zhenren/pt.png')
+}
+
+ul.game-list>li[game-box="mg"] {
+    background-image: url('../images/zhenren/mg.png')
+}
+
+ul.game-list>li[game-box="ab"] {
+    background-image: url('../images/zhenren/ab.png')
+}
+
+ul.game-list>li[game-box="sa"] {
+    background-image: url('../images/zhenren/sa.jpg')
+}
+
+ul.game-list>li[game-box="gd"] {
+    background-image: url('../images/zhenren/gd.png')
+}
+
+ul.game-list>li[game-box="dg"] {
+    background-image: url('../images/zhenren/dg.jpg')
+}
+
+ul.game-list>li[game-box="sb"] {
+    background-image: url('../images/zhenren/sb.png')
+}
+
+ul.game-list>li[game-box="bg"] {
+    background-image: url('https://cdn.igsttech.com/Web.Portal/JM001-01.Portal/Content/Views/Lobby/Live/bg.png')
+}
+
+ul.game-list>li[game-box="ebet"] {
+    background-image: url('https://cdn.igsttech.com/Web.Portal/JM001-01.Portal/Content/Views/Lobby/Live/ebet.jpg')
+}
+
+ul.game-list>li[game-box="og"] {
+    background-image: url('../images/zhenren/og_new.jpg')
+}
+
+ul.game-list>li[game-box="more"] {
+    background-image: url('https://cdn.igsttech.com/Web.Portal/JM001-01.Portal/Content/Views/Lobby/Live/more.png')
+}
+
+ul.game-list>li[game-box="more"]:hover:before {
+    display: none
+}
+
+ul.game-list>li[game-box="more"]:after {
+    display: none
+}

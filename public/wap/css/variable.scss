@@ -1,0 +1,56 @@
+@charset "UTF-8";
+//变量
+$baseColor:#333;
+$mainColor:#00aeb2;
+$secondColor:#f7b350;
+$red:#ff0107;
+
+//mixin
+@mixin transition($transition){
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+@mixin transform($transform){
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+@mixin transformOrigin($x,$y){
+  -webkit-transform-origin: $x $y;
+  transform-origin: $x $y;
+}
+@mixin box-sizing($box:border-box){
+  box-sizing: $box;
+  -webkit-box-sizing: $box;
+}
+
+@mixin screen($screen){
+  font-size: (100/(750/$screen))*1px;
+}
+
+@mixin max-screen($res){
+  @media only screen and ( max-width: $res )
+  {
+    @content;
+  }
+}
+
+@function rem($px){
+  @return ($px/100) * 1rem;
+}
+
+%arrow_right{
+  position: relative;
+  &:after{
+    content: " ";display: inline-block;height: 10px;width: 10px;border-width: 2px 2px 0 0;border-color: #fff;
+    border-style: solid;@include transform(matrix(0.71, 0.71, -0.71, 0.71, 0, 0));position: absolute;top: 50%;
+    margin-top: -6px;right: 4px;@include transition(all .5s);
+  }
+}
+
+%tipbox_right{
+  position: relative;
+  &:before{
+    content: "";position: absolute;top: 50%;right: -10px;z-index: 10;margin-top: -10px;
+    border-style: dashed dashed dashed solid;border-width: 5px;border-color: transparent transparent transparent #000;
+  }
+}

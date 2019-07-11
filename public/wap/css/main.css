@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+html, body{width: 100%; height: 100%}
+body{position: relative; background-color: #eee}
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6{font-family: Microsoft YaHei, "宋体", "Helvetica Neue", Helvetica, Arial, "\5b8b\4f53", sans-serif}
+ul, li{list-style: none; margin: 0; padding: 0}
+em, i{font-style: normal}
+a:hover, a:focus{text-decoration: none}
+.container, .container-fluid{padding: 0}
+
+.f_l{float: left}
+.f_r{float: right}
+.ft_18{font-size: 18px}
+.pd_lr_5{padding: 0 5px}
+.pd_lr_10{padding: 0 10px}
+.clear{zoom:1}.clear:after{display:block;content:'';clear:both;overflow:hidden}
+
+.header{width: 100%; height: 50px; line-height: 50px; position: fixed; left: 0; top: 0; right: 0; background-color: rgba(0, 0, 0, 0.5); box-shadow: 0 .1rem .3rem 0 rgba(0,0,0,.3); z-index: 100}
+.header div{height: 100%; overflow: hidden}
+.header img{vertical-align: middle;height: 30px;}
+.header a{color: #fff; font-size: 12px;margin-right: 5px}
+.header a:first-child{margin-left: 0}
+.header .header_login{display: inline-block;background: #c2d6ee;height: 25px;line-height: 25px;padding: 0 8px;border-radius: 4px;}
+.header .header_reg{display: inline-block;background: url("../images/reg_bg.png");height: 26px;line-height: 25px;padding: 0 10px;background-size: 100% 100%}
+
+.daohang{background:#fff;border-top:1px solid #ececec;border-bottom:1px solid #ececec;}
+.daohang dl {float:left;width:33.1%;margin:0;border-left:1px solid #ececec;}
+.daohang dl:first-child {border-left:0;}
+.daohang dl a {padding:5px;display:block;background:#fff;line-height: 30px;text-align: center; font-weight:bold;}
+.daohang dt {width: 25%;display: inline-block}
+.daohang dt img{height: 34px;}
+.daohang dd {font-size:14px;display: inline-block;margin-left: 5%;}
+a.dhye1{color: #f56143;}
+a.dhye2 {color: #15b3e2;}
+a.dhye3 {color: #1eb8b6;}
+.clearfix{clear:both;}
+
+.login, .reg{padding-bottom: 80px}
+.login .head, .reg .head{height: 45px; line-height: 45px; font-size: 18px; background-color: #fff; text-align: center}
+.login .head a, .reg .head a{color: #747474; display: inline-block}
+.login .head .icon-home{color: rgb(238,128,15)}
+.login .con, .reg .con{width: 90%; margin: 0 auto; padding-top: 30px; overflow: hidden}
+.login .con li, .reg .con li{margin-bottom: 20px; position: relative; overflow: hidden}
+.login .con .inp{padding: 10px 16px 10px 45px}
+.login .con .ico{color: #777; left: 0; right: auto}
+.login .con .ico:before{vertical-align: -6%}
+.login .con .btn, .reg .con .btn{width: 100%}
+.login .con .f_pwd, .reg .con .f_pwd{color: #999}
+
+.footer{color: #999; padding: 10px 0; text-align: center}
+.footer.abs{position: absolute; left: 0; right: 0; bottom: 0; z-index: -1}
+.footer li{line-height: 20px}
+
+.slide{position: relative}
+.slide .hd{position: absolute; left: 0; bottom: 5px; right: 0; text-align: center}
+.slide .hd li{width: 10px; height: 10px; margin: 0 5px; border-radius: 10px; display: inline-block; text-indent: -999px; background-color: #888; overflow: hidden}
+.slide .hd li.on{background-color: #ff4000}
+
+.news_warp{padding-left: 10px;margin: 5px 0;border: 1px solid #cbcbcb;border-left: none;border-right: none;background: #fefefe;
+    overflow: hidden;vertical-align: middle;font-size: 12px;}
+.news_warp span{display: inline-block;margin-top: 8px}
+.news_warp em{line-height: 35px;}
+.news_warp span img{width: 70%;vertical-align: -29%}
+.notice{height: 35px; line-height: 35px;color: #4d555f;width: 70%;float: right;overflow: hidden;}
+.notice .list{padding-left: 35px; background: url("../images/dy/icon-notice.png") no-repeat left center}
+.notice .list .move{overflow: hidden; white-space: nowrap}
+
+.games{background-color: #fff; text-align: center; margin: 5px 0; overflow: hidden}
+.games .col{width: 33.33333%; float: left; padding-bottom: 5px}
+.games .logo{width: 82px; height: 82px; background: url("../images/dy/cp_logo.png") no-repeat; display: inline-block; margin-top: 10px}
+.games .logo.cqssc{background-position: 0 0}
+.games .logo.tjssc{background-position: -84px 0}
+.games .logo.xjssc{background-position: -168px 0}
+.games .logo.pk10{background-position: 0 -84px}
+.games .logo.xyft{background-position: -84px -84px}
+.games .logo.xync{background-position: -168px -84px}
+.games .logo.gdsf{background-position: 0 -168px}
+.games .logo.kl8{background-position: -84px -168px}
+.games .logo.fc3d{background-position: -168px -168px}
+.games .logo.pl3{background-position: 0 -252px}
+.games .logo.six{background-position: -84px -252px}
+.games .logo.xy28{background-position: -168px -252px}
+.games .logo.jnd28{background-position: 0 -336px}
+.games .logo.ty{background-position: -84px -336px}
+.games .logo.ag{background-position: -168px -336px}
+.games .gm_txt{color: #428bca; display: block}
+
+.games li{float: left;width: 33.3%;border: 1px solid #e5e5e5;position: relative}
+.games li img{max-width: 100%;}
+.games li p{
+    color: #333;
+    font-size: 17px;
+    position: absolute;
+    width: 100%;
+    line-height: 1.5;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+.games li .isComing{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 50%;
+}
+
+/*真人电子*/
+.Casino {background-color: #fff; text-align: center; padding: 5px 0; overflow: hidden}
+.Casino  .col{width: 33.33333%; float: left; padding-bottom: 5px}
+.Casino .logo{width: 82px; height: 82px; background: url("../images/dy/zrdz_logo.png") no-repeat; display: inline-block; margin-top: 10px}
+.Casino .logo.ag{background-position: 0 0}
+.Casino .logo.bbin{background-position: -84px 0}
+.Casino .logo.mg{background-position: -168px 0}
+.Casino .logo.pt{background-position: 0 -84px}
+.Casino .logo.agby{background-position: -84px -84px}
+.Casino .logo.bbdz{background-position: -168px -84px}
+.Casino .logo.mgdz{background-position: 0 -168px}
+.Casino .logo.ptdz{background-position: -84px -168px}
+.Casino .gm_txt{color: #428bca; display: block}
+
+.route .tit, .route .bom{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    background: #fefefe;
+    background: -moz-linear-gradient(top, #fefefe, #ededed);
+    background: -o-linear-gradient(top, #fefefe, #ededed);
+    background: -ms-linear-gradient(top, #fefefe, #ededed);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#ededed));
+    background: -webkit-linear-gradient(top, #fefefe, #ededed);
+}
+.route .tit{top: 0; border-bottom: 1px solid #ddd; box-shadow: 0 2px 2px #e9e9e9}
+.route .bom{bottom: 0; border-top: 1px solid #ddd; box-shadow: 0 -2px 2px #e9e9e9}
+.route .bom a{display: block; width: 50%; float: left}
+.route .bom a.yes{border-left: 1px solid #ddd; margin-right: -1px}
+.route .main{padding: 50px 10px}
+.route .main li{line-height: 28px; text-indent: 2em}
+
+.news{margin: 0 10px}
+.news .tit, .news .n_l{border-left: 1px solid #ddd; border-top: 1px solid #ddd; border-right: 1px solid #ddd}
+.news .tit{height: 35px; line-height: 35px; padding: 0 15px; font-size: 16px; font-weight: bold; background-color: #e9e9e9}
+.news .n_l{margin-bottom: 10px; border-bottom: 1px solid #ddd}
+.news .n_l li{padding: 5px 15px}
+
+@media(min-width: 768px) {
+    .games .col{width: 25%}
+}
+
+.m_notice{
+    position: relative;
+    z-index: 99;
+    /*left: 0;*/
+    /*top: -30px;*/
+    height: 30px;
+    line-height: 30px;
+    margin-top: -30px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 0 3%;
+}
+.m_notice .notice_title{
+    /**width: 65px;*/
+    text-align: right;
+}
+.m_notice .notice_logo{
+    float: left;
+    width: 25px;
+    height: 30px;
+    background: url("../images/127-notice.png") no-repeat 0 5px;
+    background-size: 20px 20px;
+}
+.m_notice .notice_content{
+    /**width: calc( 94% - 80px );*/
+}

@@ -1,0 +1,149 @@
+.activity * {
+    margin: 0px;
+    padding: 0px;
+	box-sizing: border-box;
+}
+
+.activity li {
+    list-style: none;
+}
+.activity{
+    color: #CCC;
+    background-color: #151515;	
+}
+.myhot {
+	padding-top:20px;
+    padding-bottom: 30px;
+	overflow:hidden;
+}
+.myhot h3, .myhot h6{
+	margin:0px;
+	padding:0px;
+}
+.myhot {
+    width: 1020px;
+    margin: auto;
+    padding-bottom: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.myhot ul{
+	margin-bottom:0px;
+}
+.myhot ul.hleft {
+    float: left;
+    width: 1000px;
+}
+
+.myhot ul.hleft li {
+    margin: auto;
+    padding-top: 0px;
+    float: left;
+    margin-left: 10px;
+}
+.myhot ul.hleft li:first-child {
+    padding-top: 0px;
+}
+.myhot ul.hleft li span {
+    background: #2b2122 none repeat scroll 0 0;
+    border-bottom: 3px solid #36304a;
+    border-radius: 5px;
+    border-right: 3px solid #36304a;
+    color: #8e6d31;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.myhot ul.hleft li span.ok, .myhot ul.hleft li span:hover {
+    color: #f6d768;
+    font-weight: bold;
+}
+
+.myhot .hright {
+    float: right;
+    width: 1020px;
+    margin-top: 20px;
+}
+.myhot .hright dl:first-child {
+    margin-top: 0;
+}
+.myhot .hright dl {
+    cursor: pointer;
+}
+.myhot .hright dl dd {
+    height: 180px;
+    overflow: hidden;
+    width: 1020px;
+}
+.myhot .hright dl dt {
+    background: url(../images/bg-promo-time.png) no-repeat 70% 0;
+}
+.myhot .hright dl dt .title {
+	display:block;
+	font-size:14px;
+	padding-bottom: 7px;
+	padding-top: 6px;
+	color: #fff;
+	margin-left:160px;
+	color:#ccc;
+	font-weight:600;
+}
+.myhot .hright dl dt .actime {
+	display:block;
+	color: #ccc;
+	font-size: 14px;
+	font-weight:600;
+	position:absolute;
+	margin-top:-28px;
+	margin-left:700px;
+}
+button.applybtn{
+	border:0;
+}
+.applybtn {
+    position: absolute;
+    margin-left:780px;
+    margin-top: -110px;
+    color: #333;
+    padding: 8px 25px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(192, 165, 69) 0%, rgb(232, 218, 129) 50%, rgb(192, 165, 69) 100%) repeat scroll 0 0;
+}
+.applybtn:hover {
+	color:#000;
+}
+.myhot .hright dl dt .hotcontent {
+	background-color: #333;
+	color: #fff;
+	display: none;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-weight:normal;
+}
+.myhot .hright dl dt .hotcontent p, .myhot .hright dl dt .hotcontent li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	
+}
+.myhot .hright dl dt .hotcontent strong {
+    color: #fff;
+    font-size: 18px;
+}
+#banner {
+	width:100%;
+    position: relative;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+#banner {
+    background-image: url(../images/act-banner.jpg);
+	background-size: cover;
+}

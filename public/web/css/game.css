@@ -1,0 +1,293 @@
+#banner {
+    background-image: url(../images/egame-banner.jpg);
+    background-size: cover;
+}
+#banner {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+#content {
+    padding-top: 0
+}
+
+#content {
+    position: relative;
+    z-index: 0;
+    padding: 10px 0;
+    padding-top: 10px;
+    background-color: #17171b;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto
+}
+
+#lobby>ul.game-list {
+    display: block;
+    text-align: left
+}
+
+/*ol,ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}*/
+
+#lobby {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 0
+}
+
+#lobby>ul.game-list>li {
+    display: inline-block;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+#lobby iframe {
+    width: 100%;
+    height: 900px;
+    background: #fff;
+    -moz-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s
+}
+
+#lobby ul.game-list {
+    padding: 5px;
+    background-color: #17171b
+}
+
+#lobby ul.game-list>li {
+    width: 155px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 6px;
+    text-align: center;
+    background-color: #202024;
+    background-repeat: no-repeat;
+    background-position: center top
+}
+
+#lobby ul.game-list>li:before {
+    content: '';
+    display: inline-block;
+    height: 37px;
+    vertical-align: top;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center top
+}
+
+#lobby ul.game-list>li a {
+    display: block;
+    height: 100%
+}
+
+#lobby ul.game-list>li p {
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left
+}
+
+#lobby ul.game-list>li p span {
+    display: block;
+    color: #444;
+    font-size: 12px
+}
+
+#lobby ul.game-list>li.active,#lobby ul.game-list>li:hover {
+    background-image: url(../images/hover.jpg)
+}
+
+#lobby ul.game-list>li.active:before,#lobby ul.game-list>li:hover:before {
+    background-position: center bottom
+}
+
+#lobby ul.game-list>li.active p,#lobby ul.game-list>li.active p span,#lobby ul.game-list>li:hover p,#lobby ul.game-list>li:hover p span {
+    color: #502f00
+}
+
+ul.game-list>li[game-box=bbin]:before {
+    width: 49px;
+    background-image: url(../images/bb.png)
+}
+
+ul.game-list>li[game-box=mg]:before {
+    width: 37px;
+    background-image: url(../images/mg.png)
+}
+
+ul.game-list>li[game-box=pt]:before {
+    width: 41px;
+    background-image: url(../images/pt.png)
+}
+
+ul.game-list>li[game-box=ag]:before {
+    width: 50px;
+    background-image: url(../images/ag.png)
+}
+
+ul.game-list>li[game-box=gpi]:before {
+    width: 37px;
+    background-image: url(../images/gpi.png)
+}
+
+ul.game-list>li[game-box=gns]:before {
+    width: 36px;
+    background-image: url(../images/gns.png)
+}
+
+ul.game-list>li[game-box=pp]:before {
+    width: 27px;
+    background-image: url(../images/pp.png)
+}
+
+ul.game-list>li[game-box=sg]:before {
+    width: 30px;
+    background-image: url(../images/sg.png)
+}
+
+ul.game-list>li[game-box=fish]:before {
+    width: 36px;
+    background-image: url(../images/fish.png)
+}
+
+ul.game-list>li[game-box=qt]:before {
+    width: 37px;
+    background-image: url(../images/qt.png)
+}
+
+ul.game-list>li[game-box=mw]:before {
+    width: 45px;
+    background-image: url(../images/mw.png)
+}
+
+ul.game-list>li[game-box=hb]:before {
+    width: 27px;
+    background-image: url(/images/hb.png)
+}
+
+ul.game-list>li[game-box=jdb]:before {
+    width: 50px;
+    background-image: url(/images/jdb.1.png)
+}
+
+ul.game-list>li[game-box=ne]:before {
+    width: 53px;
+    background-image: url(/images/ne.png)
+}
+
+ul.game-list>li[game-box=cq9]:before {
+    width: 46px;
+    background-image: url(../images/cq9.png)
+}
+
+ul.game-list>li[game-box=rt]:before {
+    width: 34px;
+    background-image: url(/images/rt.png)
+}
+
+ul.game-list>li[game-box=ga]:before {
+    width: 45px;
+    background-image: url(/images/ga.png)
+}
+ul.game-list>li[game-box=fg]:before {
+    width: 45px;
+    background-image: url(../images/fg.1.png)
+}
+ul.game-list>li[game-box=pg]:before {
+    width: 50px;
+    background-image: url(/images/pg.png)
+}
+
+ul.game-list>li[game-box=isb]:before {
+    width: 50px;
+    background-image: url(/images/isb.png)
+}
+
+ul.game-list>li[game-box=lg]:before {
+    width: 50px;
+    background-image: url(/images/lg.png)
+}
+
+ul.game-list>li[game-box=kg]:before {
+    width: 50px;
+    background-image: url(/images/kg.png)
+}
+
+ul.game-list>li[game-box=pts]:before {
+    width: 50px;
+    background-image: url(/images/pts.png)
+}
+
+ul.game-list>li[game-box=png]:before {
+    width: 50px;
+    background-image: url(/images/png.png)
+}
+
+ul.game-list>li[game-box=sa]:before {
+    width: 46px;
+    background-image: url(../images/sa.png)
+}
+
+ul.game-list>li[game-box=sw]:before {
+    width: 46px;
+    background-image: url(../images/sw.png)
+}
+ul.game-list>li[game-box=jdb]:before {
+    width: 46px;
+    background-image: url(../images/jdb.1.png)
+}
+ul.game-list>li[game-box=bng]:before {
+    width: 46px;
+    background-image: url(../images/bng.png)
+}
+ul.game-list>li[game-box=dt]:before {
+    width: 46px;
+    background-image: url(../images/egame/dt.png)
+}
+ul.game-list>li[game-box=pg]:before {
+    width: 46px;
+    background-image: url(../images/egame/pg.png)
+}
+ul.game-list>li[game-box=gti]:before {
+    width: 46px;
+    background-image: url(../images/egame/gti.png)
+}
+ul.game-list>li[game-box=png]:before {
+    width: 46px;
+    background-image: url(../images/egame/png.png)
+}
+
+#lobby ul.game-list>li[game-box=more],#lobby ul.game-list>li[game-box=more]:hover {
+    background-image: url(/images/more.png)
+}
+
+#lobby ul.game-list>li[game-box=mobile] {
+    padding: 0;
+    background-image: url(/images/mobile.jpg)
+}
+
+#lobby ul.game-list>li[game-box=mobile]:hover {
+    background-image: url(/images/mobile_h.jpg)
+}
+
+#lobby ul.game-list>li[game-box=mobile]:before {
+    display: none
+}
